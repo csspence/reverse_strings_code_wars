@@ -5,6 +5,6 @@ solution('world'); // returns 'dlrow'
 */
 
 
-function solution(str){
-  
+const solution = (str) => {
+    return str.split("").reverse().join("");
 }
